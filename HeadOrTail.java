@@ -26,5 +26,14 @@ class HeadOrTail
         }
         
         System.out.println("Heads: "+head+", Tails: "+tail);
+
+        if(head>tail)
+        {
+            System.out.println("You won!");
+        }
+        if(head<tail)
+        {
+            System.out.println("You lose");
+        }
     }
 }
