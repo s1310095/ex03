@@ -38,11 +38,11 @@ class HeadOrTail
 
         if(head>tail)
         {
-            System.out.println("You won!");
+            System.out.println(name+" won!");
         }
         if(head<tail)
         {
-            System.out.println("You lose");
+            System.out.println(name+" lose");
         }
     }
 }
